@@ -100,6 +100,7 @@ const MobileIcon=styled.div`
 height:100%;
 display:flex;
 align-items:center;
+margin-top:5px;
 color: ${({ theme }) => theme.text_primary};
 display:none;
 @media screen and (max-width:768px){
@@ -144,7 +145,7 @@ const Navbar = () => {
             {/* <img src="https://logos.flamingtext.com/Name-Logos/Tushar-design-sketch-name.webp" alt="" /> */}
         </NavLogo>
         <MobileIcon onClick={()=>setIsOpen(!isOpen)}>
-            <MenuRounded style={{color:"inherit"}}/>
+            <MenuRounded style={{margin:"15px"}}/>
         </MobileIcon>
         <NavItems>
           <NavLink href="#About">About</NavLink>
