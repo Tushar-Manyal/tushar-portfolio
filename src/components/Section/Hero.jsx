@@ -253,7 +253,7 @@ const Hero = () => {
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
 
-              <ResumeButton href={Bio.resume} target="_blank">
+              <ResumeButton href="https://drive.google.com/file/d/1Fn0wtGbsOeVCJZ1bXdCiVl1fBfagDu0R/view?usp=drivesdk" target="_blank">
                 Check Resume
               </ResumeButton>
             </HeroLeftContainer>
