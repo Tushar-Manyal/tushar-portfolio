@@ -35,8 +35,8 @@ const NavLogo=styled(LinkR)`
 width:80%;
 padding:1px 6px;
 text-decoration:none;
-font-weight:900
-color:inherit;
+font-weight:900;
+color:#7528fb;
 `;
 
 const NavItems = styled.ul`
@@ -140,7 +140,7 @@ const Navbar = () => {
   return (
     <Nav>
         <NavbarContainer>
-        <NavLogo to="/">
+        <NavLogo class="tushar" to="/">
         TuSh^R.
             {/* <img src="https://logos.flamingtext.com/Name-Logos/Tushar-design-sketch-name.webp" alt="" /> */}
         </NavLogo>
