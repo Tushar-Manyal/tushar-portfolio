@@ -36,7 +36,7 @@ width:80%;
 padding:1px 6px;
 text-decoration:none;
 font-weight:900
-// color:inherit;
+color:inherit;
 `;
 
 const NavItems = styled.ul`
